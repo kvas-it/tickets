@@ -3,11 +3,12 @@ import operator
 
 
 OPERATORS = {
-        '+': operator.add,
-        '-': operator.sub,
-        '*': operator.mul,
-        '/': operator.truediv
+    '+': operator.add,
+    '-': operator.sub,
+    '*': operator.mul,
+    '/': operator.truediv
 }.items()
+
 
 def checkio(ticket):
     subresults = {}
